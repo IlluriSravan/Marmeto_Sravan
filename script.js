@@ -74,6 +74,7 @@ sizes.forEach((option, index) => {
   radioDiv.style.marginRight="10px"
   radioDiv.style.padding="0 10px"
   radioDiv.style.borderRadius="10px"
+  radioDiv.style.marginBottom="10px"
   const input = document.createElement('input');
   input.type = 'radio';
   input.name = 'option';
